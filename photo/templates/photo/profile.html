@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block title %} - Profile {% endblock %}
+{% block content %}
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <ul class="list-group list-group-flush">
+        <h4>information</h4>
+        <li class="list-group-item">아이디: {{ user.username }}</li>
+        <li class="list-group-item">이메일: {{ user.email }}</li>
+        <li class="list-group-item">이름: {{ user.first_name }}</li>
+        <li class="list-group-item">성별: {{ user.gender }}</li>
+        <li class="list-group-item">생일: {{ user.birthdate }}</li>
+        <li class="list-group-item">
+            <a href="/" role="button" class="btn btn-xs btn-secondary">Home</a>
+            <a href="{% url 'dropout' %}" role="button" class="btn btn-xs btn-danger">Delete account</a>
+        </li>
+    </ul>
+    <div class="col-md-2"></div>
+</div>
+{% endblock %}

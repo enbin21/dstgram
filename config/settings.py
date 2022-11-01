@@ -145,8 +145,8 @@ DISQUS_WEBSITE_SHORTNAME = 'dstagram-enbin' # Disqus 사이트에 작성한 이�
 
 SITE_ID = 1 # sites 앱에 등록된 현재 사이트의 번호, 기본적으로 1번으로 설정
 
-AWS_ACCESS_KEY_ID = 'AKIAQUEVDIPXSDS72N52'
-AWS_SECRET_ACCESS_KEY = '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'
+AWS_ACCESS_KEY_ID = 'AWS_ACCESS_KEY_ID'
+AWS_SECRET_ACCESS_KEY = 'AWS_SECRET_ACCESS_KEY'
 AWS_REGION = 'ap-northeast-2'
 AWS_STORAGE_BUCKET_NAME = 'dstagram-enbin'
 AWS_S3_CUSTOM_DOMAIN = '%s.s3.%s.amazonaws.com' % (AWS_STORAGE_BUCKET_NAME, AWS_REGION)
